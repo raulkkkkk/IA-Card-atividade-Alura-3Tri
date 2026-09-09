@@ -30,6 +30,20 @@ p {
     color: #d1d1e0;
 }
 
+.cartao {
+    background-color: #1d1d2e;
+    border-left: 5px solid #ff4d4d;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.titulo-cartao {
+    color: #ff4d4d;
+    margin-top: 0;
+}
+
 button {
     background-color: #00d2df;
     color: #1d1d2e;
@@ -40,7 +54,6 @@ button {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
-    margin-top: 15px;
 }
 
 button:hover {
@@ -48,10 +61,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Classes de visibilidade dos elementos do jogo */
-.caixa-perguntas, 
-.caixa-alternativas, 
-.caixa-resultado {
+.caixa-perguntas {
     display: none;
 }
 
